@@ -1,0 +1,25 @@
+{
+  "name": "overlapping-marker-spiderfier-leaflet",
+  "version": "1.0.0",
+  "description": "Deals with overlapping markers in the Leaflet maps API, Google Earth-style",
+  "main": "lib/oms.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "node_modules/.bin/coffee -bco lib src/oms.coffee",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aratcliffe/OverlappingMarkerSpiderfier-Leaflet.git"
+  },
+  "author": "Adam Ratcliffe <adam.ratcliffe@gmail.com> (http://github.com/aratcliffe)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aratcliffe/OverlappingMarkerSpiderfier-Leaflet/issues"
+  },
+  "homepage": "https://github.com/aratcliffe/OverlappingMarkerSpiderfier-Leaflet#readme",
+  "devDependencies": {
+    "coffee-script": "^1.12.7",
+    "rimraf": "^2.6.2"
+  }
+}
