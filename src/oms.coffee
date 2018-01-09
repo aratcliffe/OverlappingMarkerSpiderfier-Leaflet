@@ -212,3 +212,5 @@ class @['OverlappingMarkerSpiderfier']
     return arr.indexOf(obj) if arr.indexOf?
     (return i if o is obj) for o, i in arr
     -1
+
+module.exports = @['OverlappingMarkerSpiderfier']
