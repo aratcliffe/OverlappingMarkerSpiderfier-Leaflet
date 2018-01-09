@@ -7,8 +7,6 @@ Note: The Leaflet maps API must be included *before* this code
 
 # NB. string literal properties -- object['key'] -- are for Closure Compiler ADVANCED_OPTIMIZATION
 
-return unless this['L']?  # return from wrapper func without doing anything
-
 class @['OverlappingMarkerSpiderfier']
   p = @::  # this saves a lot of repetition of .prototype that isn't optimized away
   p['VERSION'] = '0.2.6'
